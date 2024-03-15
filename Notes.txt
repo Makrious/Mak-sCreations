@@ -1,0 +1,177 @@
+> connecting the stars review in the review section in database.
+
+
+Are you seeking a graphic designer who can bring your wildest design dreams to life? Look no further! I am a Computing and Data-Science Student. I am obsessed with Graphic Design,I have three years of experience. The Designs will exceed your expectations, delivering visually stunning and perfectly aligned designs.Don't miss the chance and contact me to start our Branding trip to reach the identity of your Brand.
+
+
+<div class="row ">
+                            <div class="col-lg-4 my-5 d-none d-lg-block">
+                                <a href="#intro" ><img class="img-fluid border border-4 " src="assets/Maaak.png"  alt="logo"></a>
+                            </div>
+
+                            <div class="col-lg-7 d-none d-lg-block">
+                                <div class="mt-5 mx-3">
+                                    <h3 class="fw-bold text-light">Hey! I'm Makrious</h3>
+                                    <div class="border-b border-white border border-2"></div>
+                                    <p class="my-3 text-white">Are you seeking a graphic designer who can bring your wildest design dreams to life?
+                                         Look no further! I am a Computing and Data-Science Student. I am obsessed with Graphic Design,
+                                         I have three years of experience. The Designs will exceed your expectations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+font-family: "icomoon"
+font-family: "PT Mono", monospace;
+
+
+
+.owl-3-slider .owl-nav, .single-slider .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  @media (max-width: 767.98px) {
+    .owl-3-slider .owl-nav, .single-slider .owl-nav {
+      display: none; } }
+  .owl-3-slider .owl-nav .owl-next, .owl-3-slider .owl-nav .owl-prev, .single-slider .owl-nav .owl-next, .single-slider .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .owl-3-slider .owl-nav .owl-next span, .owl-3-slider .owl-nav .owl-prev span, .single-slider .owl-nav .owl-next span, .single-slider .owl-nav .owl-prev span {
+      font-size: 1.2rem; }
+  .owl-3-slider .owl-nav .owl-prev, .single-slider .owl-nav .owl-prev {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    left: -30px; }
+    .owl-3-slider .owl-nav .owl-prev:hover, .single-slider .owl-nav .owl-prev:hover {
+      left: -35px;
+      color: #073b4c; }
+  .owl-3-slider .owl-nav .owl-next, .single-slider .owl-nav .owl-next {
+    right: -30px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .owl-3-slider .owl-nav .owl-next span, .single-slider .owl-nav .owl-next span {
+      display: block;
+      -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg); }
+    .owl-3-slider .owl-nav .owl-next:hover, .single-slider .owl-nav .owl-next:hover {
+      right: -35px;
+      color: #073b4c; }
+
+
+
+
+
+{{-- Start Navbar --}}
+        <nav class="navbar fixed-top navbar-expand-lg " style="background-color: #073b4c;">
+            <div class="container-fluid shadow shadow-white normal" >
+                <div class="px-5 py-2 justify-content-start align-items-center d-inline" >
+                    <i class="bi bi-bezier fw-bold fs-4 px-1 text-white"></i>
+                    <a class="navbar-brand fw-bold fs-4 text-white" href="#intro">Mak's Creations</a>
+                </div>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {{-- Navbar links --}}
+                <div class="collapse navbar-collapse align-items-center justify-content-end px-4 " id="navbarNavAltMarkup" >
+                    <div class="navbar-nav fs-5">
+                        <a class="nav-link active px-3 text-white" aria-current="page" href="#intro" >Home</a>
+                        <a class="nav-link px-3 text-white" href="#about">About</a>
+                        <a class="nav-link px-3 text-white" href="#services">Services</a>
+                        <a class="nav-link px-3 text-white" href="#work">Work</a>
+                        <a class="nav-link px-3 text-white" href="#reviews">Reviews</a>
+                        <a class="nav-link px-3 text-white" href="#footer">Contact me</a>
+                    </div>
+                </div>
+
+        </div>
+      </nav>
+        </nav>
+    {{-- End Navbar --}}
+
+
+    {{-- Start Fixed button --}}
+        <div class="fixed-btn z-3 d-none d-lg-block" style="position:fixed; button:1%; right:1%; ">
+            <button class="btn fixed btn-primary btn-lg m-3 px-3" data-bs-toggle="modal" data-bs-target="#modal">
+                <i class="bi bi-bell-fill pe-2"></i>Get Latest Updates
+            </button>
+        </div>
+
+        <div class="modal" tabindex="-1" id="modal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Get Latest Updates</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <label for="email" class="form-label">Email address :</label>
+                        <div class="input-group mb-2">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="name@example.com">
+                        </div>
+                    </form>
+                    <p class="text-muted py-2">You will get notifications of the new releases and updates.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    {{-- End Fixed button --}}
+
+
+
+<div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+
+            <div class="col-md-6">
+              <form method="post" class="form-outline-style-v1" id="contactForm">
+                <div class="form-group row mb-0">
+
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control" id="email">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="text">Subject Title</label>
+                    <input name="text" type="text" class="form-control" id="text">
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Write your message...</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Send Message">
+                      <span class="submitting"></span>
+                    </div>
+                  </div>
+              </form>
